@@ -2,5 +2,9 @@
 
 source "https://rubygems.org"
 
-gem "rspec"
 gem "ig_api"
+
+group :test do
+  gem "rspec"
+  gem "webmock", "~> 3.18"
+end
