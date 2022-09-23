@@ -1,6 +1,10 @@
 class InstaJanitor
-  def get_follows
-    "This user is not following anyone"
+  def initialize(ig_user_id)
+    @ig_user_id = ig_user_id
+  end
+
+  def show_unfollow_suggestions
+    {}
   end
 end
 
