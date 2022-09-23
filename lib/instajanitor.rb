@@ -4,7 +4,7 @@ class InstaJanitor
   end
 
   def show_unfollow_suggestions
-    {}
+    []
   end
 end
 
