@@ -5,6 +5,7 @@ source "https://rubygems.org"
 gem "ig_api"
 
 group :test do
+  gem "pry"
   gem "rspec"
   gem "webmock", "~> 3.18"
 end
